@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://madrakas.github.io/04_html-real-estate/
 
-Design: [UFO](https://dribbble.com/shots/2815937/attachments/2815937-404-page?mode=media)
+Design: [Real Estate](https://dribbble.com/shots/10172325/attachments/2114690?mode=media)
 
 ## 🎯 Project features/goals
 
