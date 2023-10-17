@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 1200px;
+    background-color: yellow; 
+    margin-left: calc(50% - 600px);
+}
+
+img{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+
+header > a{
+    background-color: blue;
+}
+
+nav + img {
+    background-color: green;
+}
