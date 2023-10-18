@@ -20,9 +20,7 @@ Design: [Real Estate](https://dribbble.com/shots/10172325/attachments/2114690?mo
 ## 🎯 Project features/goals
 
 -   Github pages
--   basic [HTML (structure)](https://www.w3schools.com/TAGS/default.asp) and CSS (style)
--   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--   desktop only
+-   Desktop only
 
 ## 🧰 Getting Started
 
@@ -67,7 +65,9 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Arvydas [Github](https://github.com/madrakas)
+
+Sensei: Rimantas [Github](https://github.com/belauzas)
 
 ## ⚠️ License
 
