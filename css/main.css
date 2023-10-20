@@ -7,7 +7,6 @@ header {
     width: 800px;
     margin-top: 20px;
     margin-left: calc(50% - 400px);
-    background-color: yellow;
     display: inline-block;
 }
 
@@ -31,11 +30,17 @@ nav {
 }
 
 a {
+    color: #333;
     font-size: 20px;
     line-height: 20px;
     height: 20px;
     display: inline-block;
     text-decoration: none;
+}
+a:hover{
+    padding-bottom: 5px;
+    color: red;
+    border-bottom: 3px solid red;
 }
 
 a + a {
@@ -48,4 +53,5 @@ div > img {
     height: 40px;
     float: right;
     border-radius: 50%;
+    cursor: pointer;
 }
