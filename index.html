@@ -15,8 +15,12 @@
 </head>
 
 <body >
+    
     <header class="main-header">
-        <img class="logo" src="./img/logo.png" alt="Logo">
+        <a href="#">
+            <img class="logo" src="./img/logo.png" alt="Logo">
+        </a>
+        
         <div class="main-header-right-side">
             <nav class="main-menu">
                 <a class="menu-link" href="#">Buy</a>
@@ -32,15 +36,17 @@
         <!-- Hero -->
         <section class="hero"> 
             <div>
-                <h1 class="main-title">We help you find your dream home</h1>
+                <h1 class="main-title">We help you find your dream home.</h1>
             <form>
-                <div>
-                    <button type="button">Buy</button>
+                <div class="hero-filter-switch">
+                    <button class="active" type="button">Buy</button>
                     <button type="button">Rent</button>
                 </div>
-                <div>
-                    <input type="text">
-                    <button type="submit">
+                <div class="hero-filter-search">
+                    <input type="text" placeholder="Lorem ipsum dolor sit amet" 
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Lorem ipsum dolor sit amet'">
+                    <button type="submit"><img style="width:12px; height: 12px;" src="./img/search-icon.png" alt="Search"></button>
                 </div>
             </form>
             </div>
@@ -50,84 +56,86 @@
         <section class="neighborhood">
             <div>
                 <h2>Top neighborhood</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p class="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
             </div>
             <div>
-                <div>
-                    <img src="#" alt="House">
-                    <div>$1862 / sq. Ft</div>
-                    <div>
-                        <p>New York, NY</p>
+                <div class="neighborhood-offer" style="background-image: url(./img/1.png);">
+                    
+                    <div class="price-tag">$1862 / sq. Ft</div>
+                    <div class="location">
+                        <p class="state"><img src="./img/icon-map-pin.png" alt="pin">New York, NY</p>
                         <p>Carroll Gardens</p>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="House">
-                    <div>$1862 / sq. Ft</div>
-                    <div>
-                        <p>New York, NY</p>
+                <div class="neighborhood-offer" style="background-image: url(./img/2.png);">
+                    
+                    <div class="price-tag">$1862 / sq. Ft</div>
+                    <div class="location">
+                        <p class="state"><img src="./img/icon-map-pin.png" alt="pin">New York, NY</p>
                         <p>Carroll Gardens</p>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="House">
-                    <div>$1862 / sq. Ft</div>
-                    <div>
-                        <p>New York, NY</p>
+                <div class="neighborhood-offer last" style="background-image: url(./img/3.png);">
+                    
+                    <div class="price-tag">$1862 / sq. Ft</div>
+                    <div class="location">
+                        <p class="state"><img src="./img/icon-map-pin.png" alt="pin">New York, NY</p>
                         <p>Carroll Gardens</p>
                     </div>
                 </div>
                 
-                <a href="#">See all</a>
+                <a class="see_all_button" href="#">See all</a>
             </div>
             
         </section>
         
         <!-- Recommended for you -->
-        <section class="neighborhood">
+        <section class="recommended-for-you">
             <div>
                 <h2>Recommended for you</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
             <div>
-                <div>
-                    <img src="#" alt"House"">
-                    <div>
-                        <p>$123.456</p>
-                        <p>121 East 38th Street</p>
-                        <p>Manhatan, NY 10016</p>
-                        <div>
-                            <div><img src="#" alt="ICON"> 2 Baths</div>
+                <div class="recommendation">
+                    <div class="recommendation-main-image" style="background-image: url(./img/4.png);"<div></div>
+                    <div class="recommendation-details">
+                        <p class="recommendation-price">$123.456</p>
+                        <p class="recommendation-address1">121 East 38th Street</p>
+                        <p class="recommendation-address2">Manhatan, NY 10016</p>
+                        <div class="recommendation-benefits">
+                            <div><img src="./img/ico-bath.png" alt="ICON"><span>2 Baths</span></div>
                         </div>
-                        <div>
-                            <div><img src="#" alt="ICON"> 3 Beds</div>
+                        <div class="recommendation-benefits">
+                            <div><img src="./img/ico-bed.png" alt="ICON"><span>3 Beds</span></div>
                         </div>
-                        <div>
-                            <div><img src="#" alt="ICON"> 1,500 Sqft</div>
+                        <div class="recommendation-benefits">
+                            <div><img src="./img/ico-area.png" alt="ICON"><span>1,500 Sqft</span></div>
                         </div>
                     </div>
+                    <div class="bookmark"></div>
                 </div>
-
-                <div>
-                    <img src="#" alt"House"">
-                    <div>
-                        <p>$123.456</p>
-                        <p>121 East 38th Street</p>
-                        <p>Manhatan, NY 10016</p>
-                        <div>
-                            <div><img src="#" alt="ICON"> 1 Baths</div>
+                <div class="recommendation">
+                    <div class="recommendation-main-image" style="background-image: url(./img/5.png);"></div>
+                    <div class="recommendation-details">
+                        <p class="recommendation-price">$123.456</p>
+                        <p class="recommendation-address1">121 East 38th Street</p>
+                        <p class="recommendation-address2">Manhatan, NY 10016</p>
+                        <div class="recommendation-benefits">
+                            <div><img src="./img/ico-bath.png"  alt="ICON"><span>1 Baths</span></div>
                         </div>
-                        <div>
-                            <div><img src="#" alt="ICON"> 2 Beds</div>
+                        <div class="recommendation-benefits">
+                            <div><img src="./img/ico-bed.png" alt="ICON"><span>2 Beds</span></div>
                         </div>
-                        <div>
-                            <div><img src="#" alt="ICON"> 900 Sqft</div>
+                        <div class="recommendation-benefits">
+                            <div><img src="./img/ico-area.png" alt="ICON"><span>900 Sqft</span></div>
                         </div>
                     </div>
+                    <div class="bookmark"></div>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
 </html>
+
+
