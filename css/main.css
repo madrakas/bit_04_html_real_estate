@@ -142,7 +142,7 @@ main {
     font-size: 12px;
     cursor: pointer;
 }
-.hero-filter-switch .active, .hero-filter-search button{
+.hero-filter-switch .active{
     background-color: #8080FF;
     color: white;
     cursor:auto;
@@ -160,6 +160,7 @@ main {
     padding: 6px 12px 6px 12px;
     border-radius: 3px;
     border: none;
+    background-color: #FF9376;
     color: white;
     font-size: 12px;
     cursor: pointer;
