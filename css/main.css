@@ -11,9 +11,8 @@ body {
 }
 
 .main-header {
-    width: 1000px;
-    margin-top: 20px;
-    margin-left: calc(50% - 500px);
+    width: 1200px;
+    margin: 20px calc(50% - 600px) 0;
     display: inline-block;
 }
 
@@ -68,10 +67,8 @@ body {
 
 main{
     display: inline-block;
-    width: 1000px;
-    margin-top: 20px;
-    margin-left: calc(50% - 500px);
-    background-color: yellow;
+    width: 1200px;
+    margin: 20px calc(50% - 600px) 40px;
 }
 
 .hero{
@@ -94,17 +91,119 @@ main{
     margin-bottom: 30px;
 }
 
-main > section:nth-child(2){
+.neighborhood {
     float: left;
-    width: 65%;
-    padding: 30px;
+    width: 60%;
     margin-right: 30px;
-    background-color: aqua;
 }
 
-main > section:nth-child(3){
+.recommended {
     float: right;
-    width: calc(35% - 30px);
-    padding: 30px;
-    background-color: tomato;
+    width: calc(40% - 30px);
 }
+
+.section-title {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.section-title > .title {
+}
+.section-title > .description {
+}
+
+.neighborhood-listing {
+    width: 100%;
+}
+.neighborhood-listing > .listing-item {
+    width: calc((100% - 2 * 30px) / 3);
+    margin-right: 30px;
+    float: left;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.neighborhood-listing > .listing-item:nth-child(3) {
+    margin-right: 0;
+}
+.neighborhood-listing .item-image {
+    width: 100%;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+}
+.neighborhood-listing .item-size {
+    background-color: #889EF9;
+    color: #ffffff;
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 10px;
+    border-radius: 0 0 0 20px;
+}
+
+.neighborhood-listing .item-details {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+}
+.neighborhood-listing .location {}
+.neighborhood-listing .name {}
+
+.recommended-listing {
+    width:100%;
+}
+.recommended-listing > .listing-item {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.recommended-listing > .listing-item:last-child{
+    margin-bottom: 0;
+}
+
+.recommended-listing .item-image {
+    width: 25%;
+    height: 120px;
+    float: left;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.recommended-listing .item-details {
+    width: calc(75% -40px);
+    float: left;
+    margin-top: 10px;
+}
+
+.recommended-listing .item-price {
+    font-weight: bold;
+    font-size: 20px;
+}
+.recommended-listing .location-street {
+    font-size: 18px;
+}
+.recommended-listing .location-city {
+    font-size: 16px;
+}
+.recommended-listing .item-features {
+    display: inline-block;
+    font-size: 14px;
+}
+.recommended-listing .feature {
+    float: left;
+    margin-right: 10px;
+}
+
+
+
