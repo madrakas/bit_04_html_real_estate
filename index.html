@@ -11,6 +11,7 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -31,16 +32,17 @@
     <main>
         <!-- Hero -->
         <section class="hero"> 
-            <div>
+            <div class="hero-content">
                 <h1 class="main-title">We help you find your dream home</h1>
-            <form>
-                <div>
-                    <button type="button">Buy</button>
-                    <button type="button">Rent</button>
+            <form class="form">
+                <div class="filter">
+                    <button class="filter-btn active" type="button">Buy</button>
+                    <button class="filter-btn" type="button">Rent</button>
                 </div>
-                <div>
-                    <input type="text">
-                    <button type="submit">
+                <div class="search">
+                    <label class="label" for="search-address">search for city, neighborhood, zip code</label>
+                    <input id="search-address" class="input" type="text" placeholder="search for city, zip, neighborhood">
+                    <button class="search-btn fa fa-search" type="submit"></button>
                 </div>
             </form>
             </div>
@@ -73,7 +75,7 @@
                 </div>
             
             
-                <div class="listing-item">
+                <div class="listing-item last-item">
                     <img  class="item-image" src="./img/3.png" alt="House">
                     <div class="item-size">$1862 / sq. Ft</div>
                     <div class="item-details">
@@ -83,7 +85,7 @@
                 </div>
             </div>   
                 
-            <a href="#">See all</a>
+            <a class="btn" href="#">See all</a>
             
         </section>
         
@@ -93,40 +95,49 @@
                 <h2 class="title">Recommended for you</h2>
                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
+
             <div class="recommended-listing">
-                 <div class="listing-item">
+                 
+                <div class="listing-item">
                     <img  class="item-image" src="./img/1.png" alt"House"">
                     <div class="item-details">
                         <p class="item-price">$123.456</p>
                         <p class="location-street">121 East 38th Street</p>
                         <p class="location-city">Manhatan, NY 10016</p>
                         <div class="item-features">
-                            <p class="feature">ic 2 Baths</p>
-                            <p class="feature">ic 3 Beds</p>
-                            <p class="feature">ic 1,500 Sqft</p>
+                            <p class="feature"><i class="fa fa-bath" aria-hidden="true"></i>
+                                2 Baths</p>
+                            <p class="feature"><i class="fa fa-bed" aria-hidden="true"></i> 3 Beds</p>
+                            <p class="feature"><i class="fa fa-object-group" aria-hidden="true"></i> 1,500 Sqft</p>
                         </div>
+                    </div>
+                    <div class="bookmark active">
+                        <a class="fa fa-bookmark-o"></a>
+                        <a class="fa fa-bookmark"></a>
                     </div>
                 </div>
 
-                <div class="recommended-listing">
-                    <div class="listing-item">
-                       <img  class="item-image" src="./img/1.png" alt"House"">
-                       <div class="item-details">
-                           <p class="item-price">$123.456</p>
-                           <p class="location-street">121 East 38th Street</p>
-                           <p class="location-city">Manhatan, NY 10016</p>
-                           <div class="item-features">
-                               <p class="feature">ic 2 Baths</p>
-                               <p class="feature">ic 3 Beds</p>
-                               <p class="feature">ic 1,500 Sqft</p>
-                           </div>
-                       </div>
-                   </div>
-
-                
+                <div class="listing-item">
+                    <img  class="item-image" src="./img/1.png" alt"House"">
+                    <div class="item-details">
+                        <p class="item-price">$123.456</p>
+                        <p class="location-street">121 East 38th Street</p>
+                        <p class="location-city">Manhatan, NY 10016</p>
+                        <div class="item-features">
+                            <p class="feature"><i class="fa fa-bath" aria-hidden="true"></i>
+                                aaa 2 Baths</p>
+                            <p class="feature"><i class="fa fa-bed" aria-hidden="true"></i> 3 Beds</p>
+                            <p class="feature"><i class="fa fa-object-group" aria-hidden="true"></i> 1,500 Sqft</p>
+                        </div>
+                    </div>
+                    <div class="bookmark">
+                        <a class="fa fa-bookmark-o"></a>
+                        <a class="fa fa-bookmark"></a>
+                    </div>
+                </div>
+                  
             </div>
         </section>
     </main>
-
 </body>
 </html>

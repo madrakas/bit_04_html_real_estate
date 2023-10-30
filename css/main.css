@@ -81,7 +81,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} 
 
 .hero > div{
     width: 30%;
@@ -90,6 +90,80 @@ main{
 .main-title {
     margin-bottom: 30px;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.form > .filter {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form .filter-btn {
+    padding: 8px 35px;
+    background-color: white;
+    color: #889EF9;
+    border: none;
+    border-radius: 6px;
+}
+.form .filter-btn:hover {
+    box-shadow: 0 2px 8px #88f8;  
+    cursor: pointer;  
+}
+
+
+
+.form .filter-btn.active {
+    background-color: #889EF9;
+    color: white;
+}
+.form > .search {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+
+.form label{
+    display: none;
+}
+.form .input {
+    width: 0;
+    font-size: 20px;
+    padding: 15px 5px;
+    flex-grow: 1;
+    border: none;
+}
+
+::placeholder{
+    font-size: 15px;
+    color: #ccc;
+    font-style: italic;
+}
+
+.form .search-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 8px;
+    background-color: #ff9376;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 2px solid #ff9376;
+    box-shadow: 0 4px 8px #ff9376;
+    float: left;
+}
+
+
+
 
 .neighborhood {
     float: left;
@@ -123,15 +197,22 @@ main{
     overflow: hidden;
 }
 
-.neighborhood-listing > .listing-item:nth-child(3) {
+.neighborhood-listing > .listing-item.last-item {
     margin-right: 0;
+    margin-bottom: 20px;
 }
+
 .neighborhood-listing .item-image {
     width: 100%;
     height: 250px;
     object-position: center;
     object-fit: cover;
 }
+
+.neighborhood-listing .last-item .item-image {
+    height: 190px;
+}
+
 .neighborhood-listing .item-size {
     background-color: #889EF9;
     color: #ffffff;
@@ -155,16 +236,39 @@ main{
 .neighborhood-listing .location {}
 .neighborhood-listing .name {}
 
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 8px;
+    background-color: #ff9376;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 2px solid #ff9376;
+    box-shadow: 0 4px 8px #ff9376;
+    float: left;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #ff9376;
+}
+
 .recommended-listing {
     width:100%;
 }
 .recommended-listing > .listing-item {
-    display: inline-block;
+    display: flex;
+    gap: 0 10px;
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 20px;
+    align-items: center;
+    position: relative;
 }
 
 .recommended-listing > .listing-item:last-child{
@@ -174,16 +278,15 @@ main{
 .recommended-listing .item-image {
     width: 25%;
     height: 120px;
-    float: left;
     object-fit: cover;
     object-position: center;
-    margin-right: 20px;
     border-radius: 10px;
 }
 .recommended-listing .item-details {
-    width: calc(75% -40px);
-    float: left;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: calc(75% - 40px);
 }
 
 .recommended-listing .item-price {
@@ -197,13 +300,40 @@ main{
     font-size: 16px;
 }
 .recommended-listing .item-features {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 15px;
     font-size: 14px;
 }
+
 .recommended-listing .feature {
-    float: left;
-    margin-right: 10px;
+    
+}
+.recommended-listing .feature > .fa {
+    color:#889EF9;
+    margin-right: 5px;
 }
 
+.recommended-listing .bookmark {
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    top: -3px;
+    right: 30px;
+    font-size: 30px;
+    color:#889EF9;
+    cursor: pointer;
+}
 
+.recommended-listing .bookmark > .fa-bookmark, 
+.recommended-listing .bookmark:hover > .fa-bookmark-o,
+.recommended-listing .bookmark.active > .fa-bookmark-o,
+.recommended-listing .bookmark.active:hover > .fa-bookmark {
+    display: none;
+}
 
+.recommended-listing .bookmark:hover > .fa-bookmark,
+.recommended-listing .bookmark.active > .fa-bookmark,
+.recommended-listing .bookmark.active:hover > .fa-bookmark-o {
+    display: block;
+}
