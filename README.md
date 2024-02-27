@@ -23,7 +23,7 @@ Design: [Real Estate](https://dribbble.com/shots/10172325/attachments/2114690?mo
 1. [General programming skils and JS](https://github.com/madrakas/bit_01_Intro_to_programming_and_JS/)
 2. [Intro to HTML and CS](https://github.com/madrakas/bit_02_Intro_to_html/)
 3. [HTML and CSS basics, UFO 404 page](https://github.com/madrakas/bit_03_html-ufo)
-4. TML and CSS,  Real Estate Website (Current repository)
+4. HTML and CSS,  Real Estate Website (Current repository)
 
 ## 🎯 Project features/goals
 
