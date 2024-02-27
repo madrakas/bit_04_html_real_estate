@@ -5,7 +5,7 @@
 
 # BIT Full stack developer course – Part 1. HTML and CSS,  Real Estate Website
 
-_website design project_
+_My journey to become a full stack developer_
 
 <br>
 
