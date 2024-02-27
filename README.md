@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://madrakas.github.io/04_html-real-estate/
+Site published at: https://madrakas.github.io/bit_04_html_real_estate
 
 Design: [Real Estate](https://dribbble.com/shots/10172325/attachments/2114690?mode=media)
 
