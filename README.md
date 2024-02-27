@@ -3,7 +3,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Real Estate Website
+# BIT Full stack developer course – Part 1. HTML and CSS,  Real Estate Website
 
 _website design project_
 
@@ -11,26 +11,32 @@ _website design project_
 
 ## 🌟 About
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is a part of my workbook from Full stack developers course at BIT This is the 4th part of the course – HTML and CSS,  Real Estate Website.
+
+Projects porpuses are educational only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: https://madrakas.github.io/bit_04_html_real_estate
 
 Design: [Real Estate](https://dribbble.com/shots/10172325/attachments/2114690?mode=media)
 
+## 🧭 Other repositories from same course
+1. [General programming skils and JS](https://github.com/madrakas/bit_01_Intro_to_programming_and_JS/)
+2. [Intro to HTML and CS](https://github.com/madrakas/bit_02_Intro_to_html/)
+3. [HTML and CSS basics, UFO 404 page](https://github.com/madrakas/bit_03_html-ufo)
+4. TML and CSS,  Real Estate Website (Current repository)
+
 ## 🎯 Project features/goals
 
--   Github pages
--   Desktop only
+*   Learn:
+    *   Advanced  CSS
+    *   Custom VS Code snippets
+    *   Plan and track your project, Github Projects
+*   Design is for desktop only
 
 ## 🧰 Getting Started
 
 ### 💻 Prerequisites
 
-Node.js - _download and install_
-
-```
-https://nodejs.org
-```
 
 Git - _download and install_
 
@@ -46,18 +52,8 @@ Would like to run this project locally? Open terminal and follow these steps:
     ```sh
     git clone https://github.com/front-end-by-rimantas/46-grupe-ufo.git
     ```
-2. Install NPM packages
-    ```sh
-    npm i
-    ```
-    or
-    ```sh
-    npm install
-    ```
-3. Run the server
-    ```sh
-    npm run dev
-    ```
+2. Edit your cloned in you favorite text editor
+3. To view results, open index.html file in your web browser app.
 
 ### 🧪 Running tests
 
